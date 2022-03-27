@@ -1,0 +1,7 @@
+.button__cart {
+  margin-top: 2rem;
+  padding: 1.85rem 3.8rem 2.25rem;
+  font-family: "Inter";
+  @include font(600, 1.6rem, 140%);
+  display: none;
+}

@@ -1,0 +1,12 @@
+.offers__subscription {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+
+  border-bottom: 0.1rem dashed #e7eaef;
+}
+@media (max-width: 48em) {
+  .offers__subscription {
+    font-size: 4.06vw;
+  }
+}

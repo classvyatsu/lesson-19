@@ -1,0 +1,5 @@
+.header-basket {
+  @include vercen;
+  flex-shrink: 0;
+  position: relative;
+}

@@ -1,0 +1,23 @@
+.offers__wrap {
+  width: 36.3rem;
+
+  @include vercen;
+
+  justify-content: space-between;
+
+  flex-direction: column;
+
+  flex-shrink: 0;
+  text-align: center;
+}
+
+@media (max-width: 48em) {
+  .offers__wrap {
+    width: 100%;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

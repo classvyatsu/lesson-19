@@ -1,0 +1,14 @@
+.offers__img-delivery {
+  width: 8.8rem;
+  height: 8.8rem;
+  margin-bottom: 1.9rem;
+}
+
+@media (max-width: 48em) {
+  .offers__img-delivery {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 1vw;
+    margin-bottom: 12.19vw;
+  }
+}

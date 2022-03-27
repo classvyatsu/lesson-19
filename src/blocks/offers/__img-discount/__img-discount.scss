@@ -1,0 +1,16 @@
+.offers__img-discount {
+  width: 8.8rem;
+  height: 8.8rem;
+  margin-bottom: 1.9rem;
+  position: relative;
+  left: 1.5rem;
+}
+
+@media (max-width: 48em) {
+  .offers__img-discount {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 1vw;
+    margin-bottom: 12.19vw;
+  }
+}

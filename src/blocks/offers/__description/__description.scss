@@ -1,0 +1,15 @@
+.offers__description {
+  @include font(300, 2.2rem, 150%);
+  margin-bottom: 1.3rem;
+}
+.offers__description > span {
+  @include font(600, 2.2rem, 150%);
+}
+@media (max-width: 48em) {
+  .offers__description {
+    @include font(300, 4.38vw, 150%);
+  }
+  .offers__description > span {
+    @include font(600, 4.38vw, 150%);
+  }
+}

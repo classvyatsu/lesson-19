@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ОфисДирект</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__info">
+            <div class="header__burger">
+              <img src="img/header/burger-mobile.svg" alt="" />
+            </div>
+            <a href="#" class="header-logo">
+              <div class="header-logo__img">
+                <img src="img/header/logo.png" alt="" />
+              </div>
+              <div class="header-logo__text header-logo__text--color">
+                Кресла Samurai
+              </div>
+            </a>
+            <div class="header__find">
+              <input
+                class="header__input header__input--color"
+                type="text"
+                placeholder="Название модели или артикул"
+              />
+            </div>
+            <div class="header-tel">
+              <div class="header-tel__wrap">
+                <div class="header-tel__img">
+                  <img src="img/header/phone.svg" alt="" />
+                </div>
+                <a
+                  href="tel:+74952210675"
+                  class="header-tel__text header-tel__text--color"
+                  >+7 495 221-06-75</a
+                >
+              </div>
+            </div>
+            <div class="button">
+              <button
+                type="button"
+                class="button__header button__header--color"
+              >
+                Заказать звонок
+              </button>
+            </div>
+          </div>
+          <div class="header__menu">
+            <div class="header__navigation">
+              <button
+                class="menu header__catalog header__catalog--color header__catalog--size-m"
+              >
+                <img class="menu__img" src="img/header/burger.svg" alt="" />
+                <span class="menu__text">Каталог</span>
+              </button>
+              <nav class="header__nav">
+                <a href="#" class="header__link">О продукте</a>
+                <a href="#" class="header__link">Отзывы</a>
+                <a href="#" class="header__link">Доставка и оплата</a>
+                <a href="#" class="header__link">Контакты</a>
+              </nav>
+            </div>
+            <div class="header__shop">
+              <div class="header__region">
+                <div class="header__gps">
+                  <img src="img/header/gps.svg" alt="" />
+                </div>
+                <input
+                  class="header__country"
+                  type="text"
+                  list="country"
+                  value="Москва"
+                />
+                <datalist id="country">
+                  <option value="Москва"></option>
+                  <option value="Новосибирск"></option>
+                  <option value="Псков"></option>
+                </datalist>
+              </div>
+              <div class="header-basket">
+                <div class="header-basket__img">
+                  <img src="img/header/shopping.svg" alt="" />
+                </div>
+                <span class="header-basket__text">Моя корзина</span>
+                <div class="header-basket__count header-basket__count--size">
+                  +1
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="offers">
+        <div class="container">
+          <div class="offers__wrap">
+            <div class="offers__img-delivery">
+              <img src="img/offers/delivery.svg" alt="" />
+            </div>
+            <div class="offers__text">
+              <div class="offers__description offers__description--color">
+                <span>Бесплатная доставка</span> по Москве <br />
+                и Санкт-Петербургу — от 3 шт.
+              </div>
+              <a
+                href="#"
+                class="offers__subscription offers__subscription--color"
+                >Как получить?</a
+              >
+            </div>
+          </div>
+          <div class="offers__wrap">
+            <div class="offers__img-discount">
+              <img src="img/offers/discount.svg" alt="" />
+            </div>
+            <div class="offers__text">
+              <div class="offers__description offers__description--color">
+                <span>Индивидуальные скидки</span> <br />
+                при заказе от 3 шт.
+              </div>
+              <a
+                href="#"
+                class="offers__subscription offers__subscription--color"
+                >Смотреть условия</a
+              >
+            </div>
+          </div>
+          <div class="offers__wrap">
+            <div class="offers__img-juridical">
+              <img src="img/offers/juridical.svg" alt="" />
+            </div>
+            <div class="offers__text">
+              <div class="offers__description offers__description--color">
+                Для юридических лиц <br />
+                действуют <span>особые условия</span>
+              </div>
+              <a
+                href="#"
+                class="offers__subscription offers__subscription--color"
+                >Узнать подробнее</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="catalog">
+        <div class="container">
+          <div class="title">
+            <h2 class="title__document">Каталог кресел</h2>
+          </div>
+          <div class="catalog__wrap">
+            <div class="cart">
+              <a href="#" class="cart__wrap">
+                <div class="cart__img">
+                  <img src="img/cart/cart.png" alt="" />
+                </div>
+                <div class="cart__title cart__title--color">
+                  Samurai KL-1.04 Темно-коричневый
+                </div>
+                <div class="cart__coin-new">23 000 ₽</div>
+                <div class="cart__coin-old">27 000 ₽</div>
+
+                <div class="button">
+                  <button
+                    type="submit"
+                    class="button__cart button__cart--color"
+                  >
+                    Добавить в корзину
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
