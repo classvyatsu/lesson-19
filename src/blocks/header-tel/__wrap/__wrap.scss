@@ -1,6 +1,7 @@
 .header-tel__wrap {
   @include vercen;
-  padding-right: 1rem;
+  padding-right: 1.3rem;
+  padding-top: 1rem;
 }
 
 @media (max-width: 48em) {

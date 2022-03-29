@@ -5,11 +5,14 @@
   flex-direction: column;
   flex-shrink: 0;
   text-align: center;
+
+  z-index: 2;
 }
 @media (min-width: 48em) {
   .cart__wrap {
     &:hover {
       position: absolute;
+      z-index: 3;
       top: 0;
       left: 50%;
       transform: translate(-50%, 0);
@@ -19,10 +22,11 @@
       box-sizing: border-box;
       box-shadow: 0 2rem 5.2rem -0.8rem rgba(0, 0, 0, 0.15);
       border-radius: 1.6rem;
-      padding-top: 5.5rem;
+      padding-top: 2rem;
       padding-bottom: 4.7rem;
       padding-left: 5rem;
       padding-right: 4.143rem;
+      background-color: white;
 
       & .button__cart {
         display: block;
